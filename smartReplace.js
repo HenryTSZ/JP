@@ -263,7 +263,7 @@ async function downloader_jd() {
       'USER_AGENTS'
     )
   }
-  if (remoteContent.indexOf('JS_USER_AGENTS') > 0) {
+  if (remoteContent.indexOf('京东极速版') > 0) {
     await download(
       'https://raw.githubusercontent.com/HenryTSZ/jsd/main/JS_USER_AGENTS.js',
       './JS_USER_AGENTS.js',
